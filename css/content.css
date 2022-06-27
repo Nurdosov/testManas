@@ -1,0 +1,100 @@
+.content {
+    width: 90vw;
+    display: flex;
+}
+.content__menu {
+    height: 60vh;
+    width: 12.5vw;
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+    clip-path: polygon(0 0, 100% 5%, 100% 100%, 0% 100%);
+    box-shadow: 0px 0px 75px rgba(0, 0, 0, 0.03);
+}
+.content__menu-direction {
+    padding-bottom: 25px;
+    text-align: center;
+    line-height: 22px;
+}
+.content__menu-direction:first-child {
+    padding-top: 30px;
+}
+.menu__direction-line {
+    width: 8vw;
+    margin: 12px auto;
+    -webkit-box-shadow: 0px 10px 8px 3px rgba(34, 60, 80, 0.2);
+    -moz-box-box-shadow: 0px 10px 8px 3px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 10px 8px 3px rgba(34, 60, 80, 0.2);
+}
+
+.content__body {
+    padding-left: 2vw;
+}
+.content__body-title {
+    font-size: 50px;
+    line-height: 85px;
+    font-weight: 300;
+    width: 34vw;
+    text-align: center;
+    font-style: normal;
+
+}
+.content__body-direction {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-right: 10vw;
+}
+.content__buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2vw;
+}
+.buttons-price {
+    background-color: #12C868;
+    padding: 0px 25px;
+    transition-duration: 1s;
+}
+.buttons-price:hover {
+    background: #21E27C;
+    padding: 0px 30px;
+    
+}
+.buttons-record {
+    background-color: #F38120;
+    padding: 0px 45px;
+    transition-duration: 1s;
+}
+.buttons-record:hover {
+    background: #FD9C49;
+    padding: 0px 50px;
+}
+.button {
+    border: 0;
+    border-radius: 80px;
+    height: 9vh;
+    width: 16.5vw;
+    color: #fff;
+    text-align: center;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.button_white-text {
+    color: white;
+    text-align: center;
+}
+
+.content__answer {
+    display: flex;
+    justify-content: space-between;
+    width: 15vw;
+    margin-top: 30px;
+}
+.content__answer-direction {
+    text-align: center;
+    font-weight: 300;
+}
+

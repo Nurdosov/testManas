@@ -1,0 +1,21 @@
+@import url("bootstrap.min.css");
+@import url("menu.css");
+@import url("header.css");
+@import url("content.css");
+@import url("modal.css");
+*, html {
+    font-family: "Montserrat", sans-serif;
+    color: black;
+}
+a {
+    color: black;
+}
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+.body {
+    background: url("../img/BG.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}

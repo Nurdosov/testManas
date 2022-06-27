@@ -1,0 +1,109 @@
+.modal__cross {
+    margin: 1vw;
+    font-size: 2.5vw;
+}
+.modal__header { 
+    border: none;
+}
+.modal__title {
+    text-align: center;
+    letter-spacing: 0.02em;
+    font-size: 30px;
+    line-height: 40px;
+    margin-top: 2vw;
+}
+.modal__direction {
+    margin-top: 1vw;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+.modal__schedule {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    margin-top: 1vw;
+    opacity: 0.75;
+}
+
+.modal__body-text {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    opacity: 0.75;
+    width: 85%;
+    margin-bottom: 15px;
+}
+.input__number {
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.05);
+
+    border-radius: 200px;
+    width: 19vw;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    margin: 0 auto;
+
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #A7A7A7;
+
+}
+.button__call {
+    background-color: #F38120;
+    box-shadow: inset 0px 0px 17px rgba(255, 255, 255, 0.25);
+    border-radius: 200px;
+
+    width: 19vw;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+    margin: 20px auto;
+}
+.button__call:hover {
+    background-color: #F38120;
+}
+.call__text {
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+}
+
+.modal__footer {
+    border: none;
+}
+.modal__footer-label{
+    display: flex;
+    margin: 0 auto;
+    width: 100vw;
+    justify-content: center;   
+}
+input.modal__footer-input {
+    margin-right: 15px;
+}
+.modal__footer-top {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 21px;
+    display: block;
+    text-align: left;
+}
+.modal__footer-buttom {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 21px;
+    color: #F38120;
+    display: block;
+    text-align: left;
+}

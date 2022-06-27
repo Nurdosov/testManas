@@ -1,0 +1,71 @@
+.header {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__left {
+    display: flex;
+    width: 32vw;
+    text-align: center;
+    justify-content: space-between;
+}
+.header__left-top {
+    padding-bottom: 10px;
+}
+.header__left-download {
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    font-weight: 600;
+    border-bottom: 5px #12C868 dotted;
+}
+.header__center {
+    width: 20vw;
+}
+.header__right {
+    display: flex;
+    width: 32vw;
+    justify-content: space-between;
+}
+.header__right-dot {
+    width: 4px;
+    height: 4px;
+    background-color: #12C868;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: -0.3vh;
+}
+
+.header__right-icons {
+    padding-top: 4px;
+}
+.header__right_slim {
+    font-weight: 300;
+}
+.icon {
+    width: 55px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.header__right-contact {
+    text-align: center;
+}
+.contact__schedule {
+    font-size: 12px;
+}
+.contact__tel {
+    font-size: 25px;
+}
+.tell_green {
+    color: #12C868;
+}
+.tell_green:hover {
+    color: #12C868;
+}
+.header__right-tell {
+    font-weight: 600;
+    color: #12C868;
+    border-bottom: 5px #12C868 dotted;
+}
